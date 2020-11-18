@@ -33,14 +33,14 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Installation Process Commands:
 
--- composer install
--- php artisan migrate
--- npm install && npm run dev
--- php artisan twill:build
+-- composer install <br />
+-- php artisan migrate <br />
+-- npm install && npm run dev <br />
+-- php artisan twill:build <br />
 
 
 ## If not authenticated
 
--- composer require laravel/ui:^2.4
--- php artisan ui vue --auth
--- php artisan twill:install
+-- composer require laravel/ui:^2.4 <br />
+-- php artisan ui vue --auth <br />
+-- php artisan twill:install <br />
